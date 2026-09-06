@@ -22,7 +22,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 # Custom RTL CSS and Visual Identity for Naftal Theme
 css_code = """
 <style>
@@ -37,17 +36,15 @@ html, body, [class*="css"] {
 .stApp {
     background-color: #f8f9fa;
 }
+
+.main-header {
+    text-align: center;
+    color: #003366;
+}
 </style>
 """
 
-st.markdown(css_code, unsafe_allow_html=True)  
-    .main-header {
-        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-        color: white;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        margin-bottom: 25px;
+st.markdown(css_code, unsafe_allow_html=True)
         border-right: 8px solid #ffcc00;
     }
     
