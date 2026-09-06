@@ -45,7 +45,7 @@ html, body, [class*="css"] {
 """
 
 st.markdown(css_code, unsafe_allow_html=True)
-        border-right: 8px solid #ffcc00;
+border-right: 8px solid #ffcc00;
     }
     
     .metric-card {
