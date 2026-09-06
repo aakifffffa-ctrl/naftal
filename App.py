@@ -42,12 +42,25 @@ html, body, [class*="css"] {
     color: #003366;
     border-right: 0px solid #ffcc00;
     font-size: 24px;
-}
+css_code = """
+<style>
+    .stApp {
+        background-color: #f8f9fa;
+    }
+
+    .main-header {
+        text-align: center;
+        color: #003366;
+    }
+
+    .metric-card {
+        border-right: 8px solid #ffcc00;
+        font-size: 24px;
+    }
 </style>
 """
 
 st.markdown(css_code, unsafe_allow_html=True)
-    }
     
     .decision-card.high { border-right-color: #dc3545; }
     .decision-card.medium { border-right-color: #ffc107; }
