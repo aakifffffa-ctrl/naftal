@@ -24,7 +24,7 @@ st.set_page_config(
 )
 
 # Custom RTL CSS and Visual Identity for Naftal Theme
-st.markdown("""
+st.markdown(css_code, unsafe_allow_html=True)
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
     
