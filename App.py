@@ -24,18 +24,23 @@ st.set_page_config(
 )
 
 # Custom RTL CSS and Visual Identity for Naftal Theme
+css_code = """
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+.stApp {
+    background-color: #f8f9fa;
+}
+</style>
+"""
+
 st.markdown(css_code, unsafe_allow_html=True)
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
-    
-    html, body, [class*="css"] {
-        font-family: 'Cairo', sans-serif;
-        direction: rtl;
-        text-align: right;
-    }
-    
-    .stApp {
-        background-color: #f8f9fa;
     }
     
     .main-header {
