@@ -41,28 +41,12 @@ html, body, [class*="css"] {
     text-align: center;
     color: #003366;
     border-right: 0px solid #ffcc00;
+    font-size: 24px;
 }
 </style>
 """
 
 st.markdown(css_code, unsafe_allow_html=True)
-        font-size: 24px;
-        font-weight: bold;
-        color: #1e3c72;
-    }
-    
-    .metric-label {
-        font-size: 14px;
-        color: #6c757d;
-    }
-    
-    .decision-card {
-        background-color: #ffffff;
-        border-right: 5px solid #28a745;
-        padding: 15px;
-        border-radius: 8px;
-        margin-bottom: 15px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
     
     .decision-card.high { border-right-color: #dc3545; }
