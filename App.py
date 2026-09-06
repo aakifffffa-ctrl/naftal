@@ -40,24 +40,12 @@ html, body, [class*="css"] {
 .main-header {
     text-align: center;
     color: #003366;
+    border-right: 0px solid #ffcc00;
 }
 </style>
 """
 
 st.markdown(css_code, unsafe_allow_html=True)
-border-right: 8px solid #ffcc00;
-    }
-    
-    .metric-card {
-        background-color: white;
-        padding: 18px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        border-top: 4px solid #1e3c72;
-        text-align: center;
-    }
-    
-    .metric-value {
         font-size: 24px;
         font-weight: bold;
         color: #1e3c72;
